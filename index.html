@@ -150,8 +150,7 @@
           <li class="collection-item avatar">
             <img src="img/person1.jpg" alt="" class="circle">
             <span class="title">John Doe</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima dolor error
-              laboriosam autem ad beatae
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima dolor error laboriosam autem ad beatae
               explicabo pariatur maxime fuga sed quod quo voluptas, adipisci illum aspernatur est, fugit tempore.</p>
             <a href="" class="approve green-text">Approve</a> |
             <a href="" class="deny red-text">Deny</a>
@@ -159,8 +158,7 @@
           <li class="collection-item avatar">
             <img src="img/person2.jpg" alt="" class="circle">
             <span class="title">Steve Smith</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima dolor error
-              laboriosam autem ad beatae
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima dolor error laboriosam autem ad beatae
               explicabo pariatur maxime fuga sed quod quo voluptas, adipisci illum aspernatur est, fugit tempore.</p>
             <a href="" class="approve green-text">Approve</a> |
             <a href="" class="deny red-text">Deny</a>
@@ -168,8 +166,7 @@
           <li class="collection-item avatar">
             <img src="img/person3.jpg" alt="" class="circle">
             <span class="title">Ellen Williams</span>
-            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima dolor error
-              laboriosam autem ad beatae
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt minima dolor error laboriosam autem ad beatae
               explicabo pariatur maxime fuga sed quod quo voluptas, adipisci illum aspernatur est, fugit tempore.</p>
             <a href="" class="approve green-text">Approve</a> |
             <a href="" class="deny red-text">Deny</a>
@@ -404,12 +401,12 @@
           $(this).prop('Counter', 0).animate({
             Counter: $(this).text()
           }, {
-            duration: 1000,
-            easing: 'swing',
-            step: function (now) {
-              $(this).text(Math.ceil(now));
-            }
-          });
+              duration: 1000,
+              easing: 'swing',
+              step: function (now) {
+                $(this).text(Math.ceil(now));
+              }
+            });
         });
 
         // Comments - Approve & Deny
@@ -424,8 +421,7 @@
 
         // Quick Todos
         $('#todo-form').submit(function (e) {
-          const output =
-            `<li class="collection-item">
+          const output = `<li class="collection-item">
                 <div>${$('#todo').val()}
                   <a href="#!" class="secondary-content delete">
                     <i class="material-icons">close</i>
